@@ -1,1 +1,1 @@
-print('q')
+print(3/10)
