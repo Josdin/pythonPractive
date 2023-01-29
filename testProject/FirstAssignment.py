@@ -11,7 +11,7 @@ import datetime
 # Student ID : 500209345
 # Finding current date
 
-currentDate_345 = str(datetime.date.today());
+currentDate_345 = str(datetime.date.today())
 
 print("*************************************************************")
 print("Welcome to program for finding BMI,  Created by : Josdin Jose")
@@ -50,6 +50,6 @@ if calculated_BMI_345 > 25:
 elif calculated_BMI_345 < 18:
     print("You are underweight as on :" + currentDate_345 + " consider changing your diet")
 else:
-    print("Your weight is optimal as on" + currentDate_345 + " keep up the good work")
+    print("Your weight is optimal as on :" + currentDate_345 + " keep up the good work")
 
 print("Thanks " + userName_345 + " for using the BMI Calculation program")
